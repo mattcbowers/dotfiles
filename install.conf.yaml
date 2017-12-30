@@ -9,12 +9,15 @@
     #    ~/.config/git/config:
     #  create: true
     #  path: gitconfig
-    ~/.config/nvim:
-      create: true
-      path: vim
     ~/.config/nvim/init.vim:
       create: true
       path: vimrc
+    ~/.config/nvim/autoload:
+      create: true
+      path: vim/autoload
+    ~/.config/nvim/bundle:
+      create: true
+      path: vim/bundle
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

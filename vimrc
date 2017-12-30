@@ -41,3 +41,10 @@ let R_assign = 2
 " let g:syntastic_auto_loc_list = 1
 " let g:syntastic_check_on_open = 1
 " let g:syntastic_check_on_wq = 0
+
+" KEEP AT END OF VIMRC
+" Run a local vimrc if it exists
+let $LOCALFILE=expand("~/.vimrc_local")
+if filereadable($LOCALFILE)
+    source $LOCALFILE
+endif

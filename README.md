@@ -5,7 +5,7 @@ and managed with [`dotbot`](https://github.com/anishathalye/dotbot).
 
 ###  Installation
 ```
-git clone $url && cd dotfiles && ./install
+git clone https://github.com/mattcbowers/dotfiles && cd dotfiles && ./install
 ```
 
 ### Basic upkeep

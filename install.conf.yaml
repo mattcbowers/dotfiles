@@ -6,6 +6,7 @@
     #~/.tmux.conf: tmux.conf
     ~/.bashrc: bashrc
     ~/.bash_profile: bash_profile
+    ~/.Rprofile: Rprofile
     #    ~/.config/git/config:
     #  create: true
     #  path: gitconfig

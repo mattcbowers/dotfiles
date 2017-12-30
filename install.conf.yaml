@@ -1,17 +1,20 @@
-# adding a random comment
 - clean: ['~', '~/.config']
 
 - link:
-  #    ~/.vimrc: vimrc
-  #~/.tmux.conf: tmux.conf
+    ~/.vimrc: vimrc
+    ~/.vim: vim
+    #~/.tmux.conf: tmux.conf
     ~/.bashrc: bashrc
     ~/.bash_profile: bash_profile
     #    ~/.config/git/config:
     #  create: true
     #  path: gitconfig
-    #~/.config/nvim/init.vim:
-    #  create: true
-    #  path: vimrc
+    ~/.config/nvim:
+      create: true
+      path: vim
+    ~/.config/nvim/init.vim:
+      create: true
+      path: vimrc
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

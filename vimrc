@@ -6,6 +6,8 @@ colorscheme zellner
 set softtabstop=2 shiftwidth=2 expandtab
 set nowrap
 let mapleader = "-"
+
+" Normal Mode Mappings
 nnoremap <leader>ev :split $MYVIMRC<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
 nnoremap <leader>hh a# <esc>70a-<esc>0  R
@@ -13,6 +15,8 @@ nnoremap <leader>hl :set hlsearch!<CR>
 nnoremap <leader>sb {V}
 nnoremap <leader>wj <c-w>j
 nnoremap <leader>wk <c-w>k
+nnoremap <leader>c :%y*<CR>
+nnoremap <leader>p ggdG"*P
 
 " Insert Mode Mappings
 inoremap kj <esc>

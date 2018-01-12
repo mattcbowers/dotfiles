@@ -16,7 +16,7 @@ nnoremap <leader>sb {V}
 nnoremap <leader>wj <c-w>j
 nnoremap <leader>wk <c-w>k
 nnoremap <leader>c :%y*<CR>
-nnoremap <leader>p ggdG"*P
+nnoremap <leader>v ggdG"*P
 
 " Insert Mode Mappings
 inoremap kj <esc>

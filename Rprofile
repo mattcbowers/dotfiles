@@ -13,7 +13,7 @@ options(error=utils::alarm) # need to tell R where to find alarm()
 # Change colors when running R in the terminal
 #if (Sys.getenv("TERM") == "xterm-256color") library("colorout")
 
-cat("Welcome back to R, Matt!\n\n")
+# cat("Welcome back to R, Matt!\n\n")
 
 # Allow local configuration overide
 if (file.exists('~/.Rprofile_local')){
